@@ -4,7 +4,7 @@ individual digits in that integer.
 
 For example: if n=4321, the function should return 4+3+2+1"""
 
-# other than recursion approach
+other than recursion approach
 def sum(n):
     n = str(n)
     str_list = []
@@ -23,9 +23,9 @@ print(s)
 def rec_sum(n):
     if len(str(n)) == 1:
         return n
-    else:
-        return n%10 + rec_sum(n/10)
 
+    else:
+        return n%10 + rec_sum(n//10)
 
 
 rs = rec_sum(4321)
