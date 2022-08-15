@@ -15,18 +15,3 @@ class SinglyLinkedList:
       head_node = head_node.next_node
 
 
-head_node = SinglyLinkedList()
-head_node.head_val = Node('first')
-second_node = Node('second')
-third_node = Node('third')
-
-head_node.head_val.next_node = second_node
-head_node.head_val.next_node.next_node = third_node
-
-
-print(head_node.head_val.data)
-print(head_node.head_val.next_node.data)
-print(head_node.head_val.next_node.next_node.data)
-
-head_node._traverse()
-   
