@@ -9,7 +9,5 @@ def sol(arr: list) -> list:
       arr[c] for c in range(len(arr) -1, -1, -1)
       ]
 
-  return arr
-
 if __name__ == '__main__':
   print(sol([1,2,3,4,5]))
