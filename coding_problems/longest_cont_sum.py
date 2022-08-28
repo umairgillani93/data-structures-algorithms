@@ -23,5 +23,3 @@ def sol(arr: str) -> int:
 if __name__ == '__main__':
   sol([-2, 3, -1, 2])
 
-
-
